@@ -15,7 +15,7 @@
   
 -->
 
-[gimmick:theme](flatly)
+[gimmick:theme](readable)
 
 [Daily Notes](journal/Menu_DN.md)
 
