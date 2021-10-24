@@ -58,8 +58,8 @@
   * [2016年笔记](blog/0learn/note-work/2016.md) 
   * [英语单词](blog/0learn/english/words-2017.md)
   - - - -
-  * ### Acp培训   
-  * [光环Act 培训笔记](blog/0learn/2016-6-aura-acp-training.md)
+  * ### 学习笔记   
+  * [数据结构](note_book/数据结构/menu.md)
   * [PMI ACP 指定教材 电子版](blog/2book/acp-ebook.md)
   - - - -
   * ### 敏捷实践
