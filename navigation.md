@@ -58,9 +58,11 @@
   * [2016年笔记](blog/0learn/note-work/2016.md) 
   * [英语单词](blog/0learn/english/words-2017.md)
   - - - -
+
   * ### 学习笔记   
+
   * [数据结构](note_book/数据结构/menu.md)
-  * [PMI ACP 指定教材 电子版](blog/2book/acp-ebook.md)
+  * [Java](note_book/Java/menu.md)
   - - - -
   * ### 敏捷实践
   * [2016-Ninetowns-实践日记](blog/0learn/2016-Ninetowns-实践日记.md)
@@ -93,13 +95,6 @@
   * [比特币读书笔记](blog/2book/bitcom-book-remark.md)
   * [用户故事地图读书笔记](blog/2book/user-story-remark.md)
   * [PMI ACP 指定教材 电子版](blog/2book/acp-ebook.md)
-  
-[游戏]()
-
-  * [xbox One 游戏主机的一切](blog/3games/xbox1s.md)  
-  * [串流游戏方案](blog/3games/streamgame.md)
-  * [记录一些喜欢的游戏](blog/3games/like-games.md)
-  * [xbox360 主机游戏](blog/3games/xbox360.md)  
 
 
 [关于我]()
