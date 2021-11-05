@@ -26,3 +26,8 @@
   * [ ] [高等数学 (张天德)](https://www.bilibili.com/video/BV1cE411Y74f?p=21)
   * [ ] [高等代数(丘维声)](https://www.bilibili.com/video/BV1wt41147Q1)
   * [ ] 吉米多维奇
+* [ ] 人工智能
+  * [ ] 深度学习
+    * [ ] [PyTorch深度学习快速入门教程](https://www.bilibili.com/video/BV1hE411t7RN?)
+  * [ ] 机器学习
+  * [ ] 比赛
