@@ -1,138 +1,399 @@
-### 关于Markdown
+# Markdown语法
 
-Markdown是一个 Web 上使用的文本到HTML的转换工具，可以通过简单、易读易写的文本格式生成结构化的HTML文档。
+## 关于Markdown
+
+> Markdown是一个 Web 上使用的文本到HTML的转换工具，可以通过简单、易读易写的文本格式生成结构化的HTML文档。
 
 **优点**
 
-> * 简单标记符完成排版，所写即所见，让你专注于文字而不是排版
-
-* 纯文本，所以兼容性极强，可以用所有文本编辑器打开
-* 格式转换方便，Markdown文本可以轻松转换为 html、pdf等
+* 简单标记符完成排版，所写即所见
+* 纯文本，所以兼容性极强，所有文本编辑器可打开
+* Markdown文本可以轻松转换为 html、pdf等各种格式
 * Markdown 的标记语法有极好的可读性
 
-### Markdown简单语法示例
+## Markdown标题
 
----
 
-主要分为区块元素和区段元素。
 
-#### 区块元素
+## Markdown段落
 
----
-
-###### 1.段落和换行
-
-一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行。
-
-###### 2.标题
-
-用#标识符表示，例如：
-
-![](//upload-images.jianshu.io/upload_images/1122690-2f32f3c1bcb2e9db.png?imageMogr2/auto-orient/strip|imageView2/2/w/722/format/webp)
-
-Paste_Image.png
-
-###### 3.区块引用
-
-* 在段落的第一行最前面加">"
-
-  ![img](//upload-images.jianshu.io/upload_images/1122690-359173376a9922ab.png?imageMogr2/auto-orient/strip|imageView2/2/w/763/format/webp)
-* 区块引用可以嵌套（例如：引用内的引用），只要根据层次加上不同数量的 > ：
-
-  ![img](//upload-images.jianshu.io/upload_images/1122690-21c2852e9513503f.png?imageMogr2/auto-orient/strip|imageView2/2/w/750/format/webp)
-* 区块内也可以套用其他的 Markdown 语法，包括加粗、列表、代码区块等：
-
-  ![img](//upload-images.jianshu.io/upload_images/1122690-b3f5c77bd6f57871.png?imageMogr2/auto-orient/strip|imageView2/2/w/780/format/webp)
-
-###### 4.列表
-
-Markdown 支持有序列表和无序列表。
-
-* 无序列表使用星号、加号或是减号作为列表标记，效果一样：
-
-  ![](//upload-images.jianshu.io/upload_images/1122690-45da3e39d762f194.png?imageMogr2/auto-orient/strip|imageView2/2/w/688/format/webp)
-
-  Paste_Image.png
-* 有序列表则使用数字接着一个英文句点：
-
-  ![](//upload-images.jianshu.io/upload_images/1122690-5651ae146d6e722b.png?imageMogr2/auto-orient/strip|imageView2/2/w/729/format/webp)
-
-  Paste_Image.png
-
-###### 5.代码区块
-
-要在 Markdown 中建立代码区块很简单，只要简单地缩进 4 个空格或是 1 个制表符就可以，例如，下面的输入：
-
-![img](//upload-images.jianshu.io/upload_images/1122690-efd3b1828205a622.png?imageMogr2/auto-orient/strip|imageView2/2/w/756/format/webp)
-
-###### 6.分隔线
+### 分割线
 
 你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：
 
-```undefined
-   ***
-   ---
-   * * *
+```markdown
+***
+
+* * *
+
+*****
+
+- - -
+
+----------
 ```
 
-#### 区段元素
+显示效果如下:
 
-###### 1.链接
+***
 
-方块括号后面紧接着圆括号并插入网址链接即可，例如：
+* * *
 
-![](//upload-images.jianshu.io/upload_images/1122690-d2e91c881357d457.png?imageMogr2/auto-orient/strip|imageView2/2/w/765/format/webp)
+*****
 
-,
+- - -
 
-###### 2.强调
+----------
 
-Markdown 使用星号（*）和底线（_）作为标记强调字词的符号
+### 删除线
 
-* *斜体*
+如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 ~~ 即可，实例如下：
 
-![](//upload-images.jianshu.io/upload_images/1122690-1cd38ae8ec1de2d7.png?imageMogr2/auto-orient/strip|imageView2/2/w/744/format/webp)
+```markdown
+~~删除线~~
+```
 
-* 粗体
+~~删除线~~
 
-![](//upload-images.jianshu.io/upload_images/1122690-0ad7593fdd7c5eab.png?imageMogr2/auto-orient/strip|imageView2/2/w/756/format/webp)
+### 段落和换行
 
-* 删除线
+一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行。
 
-![](//upload-images.jianshu.io/upload_images/1122690-22d935ee712de1e7.png?imageMogr2/auto-orient/strip|imageView2/2/w/710/format/webp)
+### 粗体与斜体
+<details>
+<summary>
+展开
+</summary>
+<pre><code>
+```markdown
+*斜体文本*
+_斜体文本_
+**粗体文本**
+__粗体文本__
+***粗斜体文本***
+___粗斜体文本___
+```
+</code></pre>
+</details>
 
-* 空格
+### 可折叠代码块
 
-Markdown语法会忽略首行开头的空格，如果要体现出首行开头空两个的效果，可以使用 全角符号下的空格 ，windows下使用 shift+空格 切换。
+```html
+<details>
+  <summary>
+    展开
+  </summary>
+  <pre>
+    <code>  
+      <h1>标题</h1>
+        for i in a: 
+            print(i)
+    </code>
+  </pre>
+</details>
+```
 
-![](//upload-images.jianshu.io/upload_images/1122690-0d50cae630b3bc65.png?imageMogr2/auto-orient/strip|imageView2/2/w/736/format/webp)
+#### html转义字符
 
-###### 3.行内标记
+| 显示效果 |  描述  |    实体名称     | 实体编号 |
+| :------: | :----: | :-------------: | :------: |
+|          |  空格  |      &nbsp      |  &#160;  |
+|    <     | 小于号 |       &lt       |  &#60;   |
+|    >     | 大于号 |       &gt       |  &#62;   |
+|    &     |  和号  |      &amp       |  &#38;   |
+|    "     |  引号  |      &quot      |  &#34;   |
+|    `     |  撇号  | &apos(IE不支持) |  &#39;   |
 
-行内标记用反引号把它包起来' '，例如：
+## Markdown列表
 
-![](//upload-images.jianshu.io/upload_images/1122690-51fa7d2797238325.png?imageMogr2/auto-orient/strip|imageView2/2/w/729/format/webp)
+### 无序列表
 
-###### 4.插入图片
+Markdown 支持有序列表和无序列表。
 
-我用过的简书在线编辑器和马克飞象都支持直接导入本地图片和从粘贴板粘贴，就像酱紫：
+无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个空格，然后再填写内容:
 
-![](//upload-images.jianshu.io/upload_images/1122690-5e3bfd076fdd5bd9.png?imageMogr2/auto-orient/strip|imageView2/2/w/746/format/webp)
+```markdown
+* 第一项
+* 第二项
+* 第三项
 
-Paste_Image.png
++ 第一项
++ 第二项
++ 第三项
 
-#### 其他
 
-###### 1.反斜杠
+- 第一项
+- 第二项
+- 第三项
+```
 
-Markdown可以利用反斜杠来插入一些在语法中有其它意义的符号，例如：如果你想要用星号加在文字旁边的方式来做出强调效果，你可以在星号的前面加上反斜杠：
+显示效果如下:
 
-![](//upload-images.jianshu.io/upload_images/1122690-24c7e805c0a10b1b.png?imageMogr2/auto-orient/strip|imageView2/2/w/704/format/webp)
+* 第一项
+* 第二项
+* 第三项
 
-###### 2.自动邮箱链接
++ 第一项
++ 第二项
++ 第三项
 
-Markdown支持以比较简短的自动链接形式来处理电子邮件信箱
 
-![](//upload-images.jianshu.io/upload_images/1122690-2023636d03742800.png?imageMogr2/auto-orient/strip|imageView2/2/w/736/format/webp)
+- 第一项
+- 第二项
+- 第三项
 
-###### 3.表格
+### 有序列表
+
+有序列表使用数字并加上 . 号来表示，如:
+```markdown
+1. 第一项
+2. 第二项
+3. 第三项
+```
+显示效果如下:
+1. 第一项
+2. 第二项
+3. 第三项
+
+### 列表嵌套
+
+列表嵌套只需在子列表中的选项前面添加四个空格即可:
+
+```markdown
+1. 第一项：
+    - 第一项嵌套的第一个元素
+    - 第一项嵌套的第二个元素
+2. 第二项：
+    - 第二项嵌套的第一个元素
+    - 第二项嵌套的第二个元素
+```
+显示效果如下:
+
+1. 第一项：
+    - 第一项嵌套的第一个元素
+    - 第一项嵌套的第二个元素
+2. 第二项：
+    - 第二项嵌套的第一个元素
+    - 第二项嵌套的第二个元素
+
+## Markdown区块
+
+Markdown 区块引用是在段落开头使用 > 符号 ，然后后面紧跟一个空格符号:
+
+```markdown
+> 区块引用
+> 菜鸟教程
+> 学的不仅是技术更是梦想
+```
+
+显示效果如下:
+> 区块引用
+> 菜鸟教程
+> 学的不仅是技术更是梦想
+
+另外区块是可以嵌套的，一个 > 符号是最外层，两个 > 符号是第一层嵌套，以此类推:
+
+```markdown
+> 最外层
+> > 第一层嵌套
+> > > 第二层嵌套
+```
+
+显示效果如下：
+
+> 最外层
+> > 第一层嵌套
+> > > 第二层嵌套
+
+### 区块中使用列表
+
+```markdown
+> 区块中使用列表
+> 1. 第一项
+> 2. 第二项
+> + 第一项
+> + 第二项
+> + 第三项
+```
+
+显示效果如下:
+
+> 区块中使用列表
+> 1. 第一项
+> 2. 第二项
+> + 第一项
+> + 第二项
+> + 第三项
+
+### 列表中使用区块
+
+如果要在列表项目内放进区块，那么就需要在 > 前添加四个空格的缩进。
+
+列表中使用区块实例如下:
+
+```markdown
+* 第一项
+    > 菜鸟教程
+    > 学的不仅是技术更是梦想
+* 第二项
+```
+
+显示效果如下:
+
+* 第一项
+    > 菜鸟教程
+    > 学的不仅是技术更是梦想
+* 第二项
+
+## Markdown代码
+### 行代码
+如果是段落上的一个函数或片段的代码可以用反引号把它包起来（`），例如:
+
+```
+`print()`函数
+```
+显示效果如下:
+`print()`函数
+
+### 块代码
+
+代码区块使用 8 个空格或者两个制表符（Tab 键）。
+
+实例如下:
+
+    import time
+    print(time.time)
+
+也可以用 ``` 包裹一段代码，并指定一种语言（也可以不指定）:
+
+## Markdown链接
+
+### 基础链接
+
+链接使用方法如下：
+
+```markdown
+[链接名称](链接地址)
+```
+
+或者
+
+```markdown
+<www.google.com>
+```
+
+### 高级链接
+
+```markdown
+这个链接用 1 作为网址变量 [Google][1]
+这个链接用 runoob 作为网址变量 [Runoob][runoob]
+然后在文档的结尾为变量赋值（网址）
+
+  [1]: http://www.google.com/
+  [runoob]: http://www.runoob.com/
+```
+
+显示效果如下:
+
+这个链接用 1 作为网址变量 [Google][1]
+这个链接用 runoob 作为网址变量 [Runoob][runoob]
+然后在文档的结尾为变量赋值（网址）
+
+  [1]: http://www.google.com/
+  [runoob]: http://www.runoob.com/
+
+### Markdown图片
+开头一个感叹号 !
+接着一个方括号，里面放上图片的替代文字
+接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 'title' 属性的文字。
+Markdown 图片语法格式如下：
+
+```markdown
+![alt 属性文本](图片地址)
+![alt 属性文本](图片地址 "可选标题")
+```
+
+
+Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 &#60;img&#62;标签。
+
+## Markdown表格
+
+Markdown 制作表格使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。
+
+语法格式如下：
+```markdown
+| 表头   | 表头   |
+| ------ | ------ |
+| 单元格 | 单元格 |
+| 单元格 | 单元格 |
+```
+显示效果如下:
+| 表头   | 表头   |
+| ------ | ------ |
+| 单元格 | 单元格 |
+| 单元格 | 单元格 |
+
+### 对齐方式
+
+我们可以设置表格的对齐方式：
+
+-: 设置内容和标题栏居右对齐。
+:- 设置内容和标题栏居左对齐。
+:-: 设置内容和标题栏居中对齐。
+
+## Markdown高级技巧
+
+### 支持的 HTML 元素
+
+不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。
+
+目前支持的 HTML 元素有：<kbd> <b> <i> <em> <sup> <sub> <br> <img>等 ，如：
+
+```markdown
+使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
+```
+
+显示效果如下:
+使用 <kbd> Ctrl </kbd> + <kbd> Alt</kbd>+<kbd>Del</kbd> 重启电脑
+
+### 转义
+
+Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：
+
+```markdown
+**文本加粗**
+\*\* 正常显示星号 \*\*
+```
+
+**文本加粗**
+\*\* 正常显示星号 \*\*
+
+Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号:
+
+```markdown
+\   反斜线
+`   反引号
+*   星号
+_   下划线
+{}  花括号
+[]  方括号
+()  小括号
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   感叹号
+```
+
+### 公式
+
+当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：
+
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$
