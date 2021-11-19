@@ -28,6 +28,8 @@ def preOrderTraveral(root: TreeNode):
 
 ## 中序遍历
 
+> 先访问左节点，再访问根节点，最后访问右节点
+
 ```python
 class TreeNode:
     def __init__(self, x: int):

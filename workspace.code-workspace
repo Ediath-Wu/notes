@@ -5,6 +5,17 @@
 		}
 	],
 	"settings": {
-		"files.defaultLanguage": "markdown"
+		"files.defaultLanguage": "markdown",
+		"pasteImage.path": "${projectRoot}/attachments",
+		"pasteImage.showFilePathConfirmInputBox": true,
+		"prettier.singleQuote": false,
+		"spellright.notificationClass": "warning",
+		"vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+		"vscodeMarkdownNotes.slugifyMethod": "github-slugger",
+		"spellright.language": [],
+		"spellright.documentTypes": [
+			"latex",
+			"plaintext"
+		],
 	}
 }
