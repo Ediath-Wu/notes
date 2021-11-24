@@ -15,7 +15,7 @@
   
 -->
 
-[gimmick:theme](readable)
+[gimmick:theme](amelia)
 
 [日记]()
 
@@ -54,7 +54,7 @@
   * [英语单词](blog/0learn/english/words-2017.md)
   - - - -
 
-  * ### 学习笔记   
+  * ### 学习笔记
 
   * [数据结构](note_book/数据结构/menu.md)
   * [Java](note_book/Java/menu.md)
@@ -100,10 +100,10 @@
   * [关于我，我是谁？](blog/9about/about.md)
   
 
-[gimmick:themechooser](选择皮肤)
+<!-- [gimmick:themechooser](选择皮肤) -->
 
-[在线编辑](http://prose.io/#liminany/m)
-[查看本站源码](https://github.com/liminany/m/)
+<!-- [在线编辑](http://prose.io/#liminany/m)
+[查看本站源码](https://github.com/liminany/m/) -->
 
 <!--
 [gimmick:Disqus](limin-mblogs)
