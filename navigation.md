@@ -41,17 +41,13 @@
   * [苏绚慧 《终于学会爱自己》读书笔记](http://www.jianshu.com/p/fed94f5d1a58)
   * [脑图：人性---趋乐避苦的分解](http://naotu.baidu.com/file/efe82902053853b7f7d868c3d3218859?token=bde38cd6b4d8b6ec%EF%BB%BF%EF%BB%BF)
   
-
 [笔记]()
 
   * ###  java笔记
-  * [Java笔记](docs/note_book/Java/menu.md)
-  * [2018 年笔记](blog/0learn/note-work/2018.md)
-  * [git tfvc tools](blog/0learn/note-work/git-tfvc-tools.md)
-  * [2017年笔记](blog/0learn/note-work/2017.md)
-  * [2016年的公开课笔记](blog/0learn/2016年的公开课笔记.md)
-  * [2016年笔记](blog/0learn/note-work/2016.md) 
-  * [英语单词](blog/0learn/english/words-2017.md)
+  * [Java](docs/note_book/Java/menu.md)
+  * [数据结构](docs/note_book/数据结构/menu.md)
+  * [python](docs/note_book/python/menu.md)
+  * [其他](docs/note_book/Others/menu.md)
   - - - -
 
   * ### 学习笔记
