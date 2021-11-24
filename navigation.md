@@ -17,13 +17,8 @@
 
 [gimmick:theme](readable)
 
-[Daily Notes](journal/Menu_DN.md)
+[日记]()
 
-  * ### 2018（本站）
-  * [使用 MDWiki 搭建个人轻博客、知识库、或文档中心](blog/4article/MDWiki.md)
-  * [使用 yo team 在vsts或是tfs中自动创建团队项目持续交付流水线](blog/4article/yoTeam.md)
-  * [TFS数据存储实践与优化](blog/4article/TFS数据存储实践与优化.md)
-  - - - -
   * ### 微信公众号 和 DevOpsHub.cn
   * [使用 MDWiki 搭建个人轻博客、知识库、或文档中心](https://devopshub.cn/2018/10/14/mdwiki/)
   * [DevOps教练是个什么鬼？我如何成长为DevOps教练？（转）](https://mp.weixin.qq.com/s/bC0kwHVj5KdKOZ47-xyZNw)
@@ -49,8 +44,8 @@
 
 [笔记]()
 
-  * ###  工作笔记
-  * [tfs-db-datasize-analysis](blog/0learn/note-work/tfs%2Ddb%2Ddatasize%2Danalysis.md)
+  * ###  java笔记
+  * [Java笔记](docs/note_book/Java/menu.md)
   * [2018 年笔记](blog/0learn/note-work/2018.md)
   * [git tfvc tools](blog/0learn/note-work/git-tfvc-tools.md)
   * [2017年笔记](blog/0learn/note-work/2017.md)
